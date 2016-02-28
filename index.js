@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import 'babel-core/lib/polyfill'; // For ES7 features
+//import 'babel-core/lib/polyfill'; // For ES7 features
 import Routes from 'Routes.js';
 import { history } from 'xhistory.js';
 
