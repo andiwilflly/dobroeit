@@ -1,0 +1,20 @@
+@media all and (max-width: 1200px) {
+	body {
+		font-size: 0.9em;
+	}
+
+	.aside-logo {
+		padding: 0;
+		font-size: 1em;
+	}
+
+	.content {
+		margin: 1.6em 1.6em;
+	}
+
+	.recent-posts-aside a,
+	.recent-comments-aside{
+		font-size: 0.5em;
+		margin-top: 6em;
+	}
+}

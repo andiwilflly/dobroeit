@@ -3,7 +3,7 @@ import Layout from 'Layout.js';
 import Landing from 'pages/LandingPage.js';
 import HomePage from 'pages/HomePage.js';
 import NewsPage from 'pages/NewsPage.js';
-import PortfolioPage from 'pages/PortfolioPage.js';
+import ResumePage from 'pages/ResumePage.js';
 
 
 export default class Routes extends React.Component {
@@ -14,7 +14,7 @@ export default class Routes extends React.Component {
 				<Route path="/" component={Layout}>
 					<IndexRoute component={HomePage} />
 					<Route path="/news" component={NewsPage} />
-					<Route path="/portfolio" component={PortfolioPage} />
+					<Route path="/resume" component={ResumePage} />
 
 					<Route path="*" component={HomePage} />
 				</Route>
