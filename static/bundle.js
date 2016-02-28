@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "cfd0f29441d794a2c520"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "6f693b314f2f7a985c1a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -950,6 +950,14 @@
 	var _xhistoryJs = __webpack_require__(412);
 
 	__webpack_require__(418);
+
+	// Images
+	var requireImgs = __webpack_require__(422);
+	requireImgs.keys().forEach(requireImgs);
+
+	// Fonts
+	var requireFonts = __webpack_require__(430);
+	requireFonts.keys().forEach(requireFonts);
 
 	// Load the Visualization API and the corechart package.
 	google.charts.load('current', { 'packages': ['corechart', 'wordtree'] });
@@ -31806,6 +31814,196 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 419 */,
+/* 420 */,
+/* 421 */,
+/* 422 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var map = {
+		"./cloud1.png": 423,
+		"./cloud2.png": 424,
+		"./cloud3.png": 425,
+		"./cloud4.png": 426,
+		"./cloud5.png": 427,
+		"./mountain.jpg": 428,
+		"./pic01.jpg": 429
+	};
+	function webpackContext(req) {
+		return __webpack_require__(webpackContextResolve(req));
+	};
+	function webpackContextResolve(req) {
+		return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
+	};
+	webpackContext.keys = function webpackContextKeys() {
+		return Object.keys(map);
+	};
+	webpackContext.resolve = webpackContextResolve;
+	module.exports = webpackContext;
+	webpackContext.id = 422;
+
+
+/***/ },
+/* 423 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "cloud1.png?4fe111ec8084c1109e200b4d956e639c";
+
+/***/ },
+/* 424 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "cloud2.png?fa91e8f24f05b8c71969f835c344a341";
+
+/***/ },
+/* 425 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "cloud3.png?1f12d64add50d2500e7f947e4633f20f";
+
+/***/ },
+/* 426 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "cloud4.png?5621082ec970eeeeca4ce1df0ee9420d";
+
+/***/ },
+/* 427 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "cloud5.png?e85b7f87d6caae2c9b6a872709f7c832";
+
+/***/ },
+/* 428 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "mountain.jpg?0e9a6d859e35ebf0dc4c2e5e54373787";
+
+/***/ },
+/* 429 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "pic01.jpg?b6226045479173c0e4a3430b861f8c96";
+
+/***/ },
+/* 430 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var map = {
+		"./Overpass.ttf": 431,
+		"./SansProMedium.ttf": 432,
+		"./opensans.eot": 433,
+		"./opensans.ttf": 434,
+		"./opensans.woff": 435,
+		"./opensansbold.eot": 436,
+		"./opensansbold.ttf": 437,
+		"./opensansbold.woff": 438,
+		"./opensansextrabold.eot": 439,
+		"./opensansextrabold.ttf": 440,
+		"./opensansextrabold.woff": 441,
+		"./opensansitalic.eot": 442,
+		"./opensansitalic.woff": 443,
+		"./opensanslight.ttf": 444
+	};
+	function webpackContext(req) {
+		return __webpack_require__(webpackContextResolve(req));
+	};
+	function webpackContextResolve(req) {
+		return map[req] || (function() { throw new Error("Cannot find module '" + req + "'.") }());
+	};
+	webpackContext.keys = function webpackContextKeys() {
+		return Object.keys(map);
+	};
+	webpackContext.resolve = webpackContextResolve;
+	module.exports = webpackContext;
+	webpackContext.id = 430;
+
+
+/***/ },
+/* 431 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "Overpass.ttf?a7a3945b785b57002bb0e395e81caca5";
+
+/***/ },
+/* 432 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "SansProMedium.ttf?ba9bab6955dfea7ef917c224ced9db23";
+
+/***/ },
+/* 433 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensans.eot?62c3f1e867c4681af82e1d2178f7b79b";
+
+/***/ },
+/* 434 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensans.ttf?d2a705b59e370eaa5d145962f3b1ade1";
+
+/***/ },
+/* 435 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensans.woff?811c8baeca3bb3329488f729979c1fbc";
+
+/***/ },
+/* 436 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensansbold.eot?9685c6b26a2a03f270bd39f0691d8278";
+
+/***/ },
+/* 437 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensansbold.ttf?b87efff09ad1fd0e8da7f17ce94c4a83";
+
+/***/ },
+/* 438 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensansbold.woff?c91139e64ab3d21b92ab13529622f39a";
+
+/***/ },
+/* 439 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensansextrabold.eot?e6117051d476cd80efe9c31b1ff9c784";
+
+/***/ },
+/* 440 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensansextrabold.ttf?a4e0d32f8d8cb67da4af27c3f948600d";
+
+/***/ },
+/* 441 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensansextrabold.woff?3d6a37dadd31d0c518138a690b8f4f31";
+
+/***/ },
+/* 442 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensansitalic.eot?8a2adc4256b0c1fc6e7cd59f0689cdb0";
+
+/***/ },
+/* 443 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensansitalic.woff?ad3822ef1e33c83636334e2c4bdd5a75";
+
+/***/ },
+/* 444 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "opensanslight.ttf?25ad8d1b471db8cc26d864db84a86bd5";
 
 /***/ }
 /******/ ])));

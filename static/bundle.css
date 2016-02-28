@@ -30,6 +30,7 @@
 
 #root {
   border: 1px solid gray;
+  background: url(/static/mountain.jpg);
   padding: 20px; }
 
 body {
