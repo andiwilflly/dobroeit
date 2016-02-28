@@ -1,3 +1,4 @@
+@import "./mixins";
 @import "./reset";
 @import "./landing/landing";
 @import "./landing/animations";
@@ -9,6 +10,17 @@
 @import "./content/content";
 @import "./content/1200px-content";
 @import "./content/960px-content";
+
+// --------------------------------------------------
+// Compitle version for cache
+// --------------------------------------------------
+$compileVersion: random(90000) + random(99999);
+$pathToImg: "/static/";
+$pathToFonts: "/static/";
+@include customFont("opensans", "opensans", $pathToFonts, normal, normal);
+@include customFont("opensansbold", "opensansbold", $pathToFonts, normal, normal);
+@include customFont("opensansextrabold", "opensansextrabold", $pathToFonts, normal, normal);
+@include customFont("opensansitalic", "opensansitalic", $pathToFonts, normal, normal);
 
 body {
 	background: white;

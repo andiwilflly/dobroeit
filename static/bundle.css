@@ -443,5 +443,33 @@ article.content-news div.content-info a.link-text:hover {
   .content-image {
     display: block; } }
 
+@font-face {
+  font-family: "opensans";
+  src: url("/static/opensans.eot?v=75519");
+  src: url("/static/opensans.eot?v=75519#iefix") format("embedded-opentype"), url("/static/opensans.woff?v=75519") format("woff"), url("/static/opensans.ttf?v=75519") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "opensansbold";
+  src: url("/static/opensansbold.eot?v=75519");
+  src: url("/static/opensansbold.eot?v=75519#iefix") format("embedded-opentype"), url("/static/opensansbold.woff?v=75519") format("woff"), url("/static/opensansbold.ttf?v=75519") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "opensansextrabold";
+  src: url("/static/opensansextrabold.eot?v=75519");
+  src: url("/static/opensansextrabold.eot?v=75519#iefix") format("embedded-opentype"), url("/static/opensansextrabold.woff?v=75519") format("woff"), url("/static/opensansextrabold.ttf?v=75519") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "opensansitalic";
+  src: url("/static/opensansitalic.eot?v=75519");
+  src: url("/static/opensansitalic.eot?v=75519#iefix") format("embedded-opentype"), url("/static/opensansitalic.woff?v=75519") format("woff"), url("/static/opensansitalic.ttf?v=75519") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   background: white; }
