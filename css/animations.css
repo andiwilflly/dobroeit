@@ -1,0 +1,45 @@
+@keyframes cloud1 {
+	0% {
+		background-position: 50% 0;
+	}
+	100% {
+		background-position: 150% 0;
+	}
+}
+
+
+@keyframes cloud2 {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 150% 0;
+	}
+}
+
+@keyframes cloud3 {
+	0% {
+		background-position: 30% 0;
+	}
+	100% {
+		background-position: 150% 0;
+	}
+}
+
+@keyframes cloud4 {
+	0% {
+		background-position: 70% 0;
+	}
+	100% {
+		background-position: 150% 0;
+	}
+}
+
+@keyframes cloud5 {
+	0% {
+		background-position: 60% 0;
+	}
+	100% {
+		background-position: 150% 0;
+	}
+}

@@ -1,0 +1,6 @@
+@media all and (max-width: 700px) {
+
+	.page-content aside.sidebar {
+		min-width: 672px;
+	}
+}
