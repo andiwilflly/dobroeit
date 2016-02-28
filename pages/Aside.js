@@ -32,7 +32,7 @@ class Aside extends React.Component {
 							<a href="#content-news-order">To order a site</a>
 						</li>
 						<li>
-							<a href="#content-news-contacts">Contacts</a>
+							<Link to={ '/contacts' }>Contacts</Link>
 						</li>
 					</ul>
 
