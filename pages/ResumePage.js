@@ -2,7 +2,7 @@ class ResumePage extends React.Component {
 
 	render() {
 		return (
-			<div className="content-news" id="content-news-resume">
+			<div className="content-news content-news-resume">
 				<span Nameclass="content-date"> January 30, 2016 </span>
 
 				<h2>

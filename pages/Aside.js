@@ -7,13 +7,13 @@ class Aside extends React.Component {
 
 		return (
 			<div className="sidebar header">
-				<h1 className="aside-logo">
-					<a className="aside-logo-link">DOBROE IT</a>
+				<h1 className="sidebar-aside-logo">
+					<a className="sidebar-aside-logo-link">DOBROE IT</a>
 				</h1>
 
-				<div className="box aside-nav">
+				<div className="box sidebar-aside-nav">
 					<ul>
-						<li className="first-aside-link">
+						<li className="sidebar-aside-nav-first-aside-link">
 							<Link to={ '/' }>Main</Link>
 						</li>
 						<li>
@@ -21,6 +21,9 @@ class Aside extends React.Component {
 						</li>
 						<li>
 							<Link to={ '/portfolio' }>Portfolio</Link>
+						</li>
+						<li>
+							<Link to={ '/skills' }>Skills</Link>
 						</li>
 						<li>
 							<a href="#content-news-services">Services</a>
@@ -38,13 +41,13 @@ class Aside extends React.Component {
 
 				</div>
 
-				<div className="box aside-search">
+				<div className="box sidebar-aside-search">
 					<form method="post" action="#">
-						<input type="text" className="text-input" name="search" placeholder="Search" />
+						<input type="text" className="sidebar-aside-search-text-input" name="search" placeholder="Search" />
 					</form>
 				</div>
-				<div className="box aside-tags">
-					<div className="aside-tags-inside">
+				<div className="box sidebar-aside-tags">
+					<div className="sidebar-aside-tags-inside">
 						<p><strong>Striped:</strong>
 							A free and fully responsive HTML5 site template designed by
 							<a>AJ</a> for
@@ -52,7 +55,7 @@ class Aside extends React.Component {
 						</p>
 					</div>
 				</div>
-				<div className="box recent-posts-aside">
+				<div className="box sidebar-aside-recent-posts">
 					<h3>Recent Posts</h3>
 					<ul>
 						<li>
@@ -73,7 +76,7 @@ class Aside extends React.Component {
 					</ul>
 
 				</div>
-				<div className="box recent-comments-aside">
+				<div className="box sidebar-sidebar-recent-comments">
 					<h3>Recent Comments</h3>
 					<ul>
 						<li>case on <a>Lorem ipsum dolor</a></li>

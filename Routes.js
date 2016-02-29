@@ -5,6 +5,7 @@ import HomePage from 'pages/HomePage.js';
 import NewsPage from 'pages/NewsPage.js';
 import ResumePage from 'pages/ResumePage.js';
 import ContactsPage from 'pages/ContactsPage.js';
+import SkillsPage from 'pages/SkillsPage.js';
 
 
 export default class Routes extends React.Component {
@@ -17,6 +18,7 @@ export default class Routes extends React.Component {
 					<Route path="/news" component={NewsPage} />
 					<Route path="/resume" component={ResumePage} />
 					<Route path="/contacts" component={ContactsPage} />
+					<Route path="/skills" component={SkillsPage} />
 
 					<Route path="*" component={HomePage} />
 				</Route>

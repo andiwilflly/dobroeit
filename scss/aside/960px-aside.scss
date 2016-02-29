@@ -4,7 +4,7 @@
 		max-width: 700px;
 	}
 
-	.page-content aside.sidebar {
+	.page-content div.sidebar {
 		min-width: 932px;
 		float: none;
 		height: 44px;
@@ -17,11 +17,11 @@
 		left: 0;
 	}
 
-	.aside_logo {
+	.sidebar-aside-logo {
 		text-indent: 100px;
 	}
 
-	h1.aside-logo .aside-logo-link {
+	h1.sidebar-aside-logo .sidebar-aside-logo-link {
 		width: 45px;
 		height: 17px;
 		position: absolute;
@@ -32,9 +32,9 @@
 		text-indent: 8.5em;
 	}
 
-	.aside-nav,
-	.aside-search,
-	.aside-tags,
+	.sidebar-aside-nav,
+	.sidebar-aside-search,
+	.sidebar-aside-tags,
 	.recent-posts-aside,
 	.recent-comments-aside,
 	.calendar-aside {
