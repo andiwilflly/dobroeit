@@ -3,21 +3,21 @@ class ResumePage extends React.Component {
 	render() {
 		return (
 			<div className="content-news content-news-resume">
-				<span Nameclass="content-date"> January 30, 2016 </span>
+				<span className="content-news-contacts-date"> January 30, 2016 </span>
 
 				<h2>
 					<a>My resume</a>
 				</h2>
 
-				<p className="short-content-info">It marked my knowledge</p>
+				<p className="content-news-contacts-short-info">It marked my knowledge</p>
 
 
-				<div className="content-info content-info-resume" cf>
+				<div className="content-info content-news-contacts-info-resume" cf>
 
-					<div className="content-image content-image-resume"></div>
-					<div className="content-short-text-resume">
+					<div className="content-image content-news-contacts-image-resume"></div>
+					<div className="content-news-contacts-short-text-resume">
 
-						<p className="content-short-text">
+						<p className="content-news-contacts-short-text-resume-short-text">
 
 							<p>Objective: Front-end developer</p>
 
