@@ -1,6 +1,12 @@
 @media all and (max-width: 1200px) {
 
-	aside {
+	.box {
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 3em;
+	}
+
+	.sidebar {
 		font-size: 1.9em;
 		padding-top: 1em;
 	}
@@ -11,50 +17,44 @@
 	}
 
 	a {
-		font-size: 1em;
+		font-size: 0.6em;
 	}
 
-	.recent-posts-aside h3 {
+	.sidebar-aside-recent-posts h3 {
 		color: #EEEEEC;
 		font-size: 0.85em;
 	}
 
-	h1.aside-logo {
+	h1.sidebar-aside-logo {
 		padding: 0;
 		border-radius: 0.12em;
 		font-size: 1em;
 	}
 
-	.aside-nav li,
-	.aside-nav li.first-aside-link {
+	.sidebar-aside-nav li,
+	.sidebar-aside-nav li.sidebar-aside-nav-first-aside-link {
 		margin-top: 0.7em;
 		padding: 0.8em;
 	}
 
-	.aside-nav li a {
+	.sidebar-aside-nav li a {
 		padding: 0.75em;
 		font-size: 0.55em;
 	}
 
-	.aside-search {
+	.sidebar-aside-search {
 		margin: 0.75em 0;
 	}
 
-	.box {
-		width: 70%;
-		margin: 0 auto;
-		margin-top: 3em;
+	.sidebar-aside-tags-inside p {
+		font-size: 0.7em;
 	}
 
-	.aside-tags-inside p {
-		font-size: 0.8em;
-	}
-
-	.aside-tags-inside p strong {
+	.sidebar-aside-tags-inside p strong {
 		font-weight: 500;
 	}
 
-	.text-input {
+	.sidebar-aside-search-text-input {
 		line-height: 1.85em;
 	}
 }

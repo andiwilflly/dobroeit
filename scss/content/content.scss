@@ -9,7 +9,7 @@
 }
 
 h2 a {
-	color: black;
+	color: #29271B;
 	text-decoration: none;
 	font-size: 3em;
 	font-weight: bold;
@@ -28,7 +28,7 @@ h2 a:hover {
 	margin-bottom: 6em;
 }
 
-.short-content-info {
+.content-news-contacts-short-info {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 300;
 	display: block;
@@ -38,7 +38,7 @@ h2 a:hover {
 	font-size: 1.2em;
 }
 
-.content-date {
+.content-news-contacts-date {
 	font-size: 1em;
 	color: #303948;
 	font-style: italic;
@@ -60,11 +60,11 @@ h2 a:hover {
 	-webkit-filter: brightness(50%);
 }
 
-.content-short-text {
+.content-news-contacts-info-short-text {
 	padding: 1em 0;
 }
 
-article.content-news div.content-info a.link-text {
+div.content-news div.content-news-contacts-info a.link-text {
 	color: #C94663;
 	font-size: 1.2em;
 	margin: 0;
@@ -72,7 +72,7 @@ article.content-news div.content-info a.link-text {
 	text-decoration: none;
 }
 
-article.content-news div.content-info a.link-text:hover {
+div.content-news div.content-news-contacts-info a.link-text:hover {
 	color: #1594ff;
 	transition: 7ms;
 	text-decoration: underline;
@@ -83,38 +83,40 @@ article.content-news div.content-info a.link-text:hover {
 	font-size: 1.1em;
 }
 
-.content-info-resume {
+.content-news-contacts-info-resume {
 	min-height: 1752px;
 	width: 90%;
 }
 
-#content-news-resume {
+.content-news-resume {
 	height: auto;
 	margin: 50px;
 }
 
-.content-image-resume {
+.content-news-contacts-image-resume {
 	width: 40%;
 	height: 417px;
 	float: left;
 	background: url(/static/resume.jpg) no-repeat;
 	background-size: 134%;
+	margin-right: 40px;
+
 }
 
-.content-short-text-resume {
+.content-news-contacts-short-text-resume {
 	float: right;
-	width: 52%;
+	width: 50%;
 }
 
-.content-short-text-resume li,
-.content-short-text li {
+.content-news-contacts-short-text-resume-short-text-resume li,
+.content-news-contacts-short-text-resume-short-text li {
 	font-size: 16px;
 	font-family: 'SansProMedium';
 	color: rgba(0, 0, 0, 0.58);
 }
 
-#content-news-contacts,
-#content-news-main{
+.content-news-contacts,
+.content-news-main {
 	margin: 50px;
 }
 

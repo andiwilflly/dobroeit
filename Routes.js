@@ -4,6 +4,9 @@ import Landing from 'pages/LandingPage.js';
 import HomePage from 'pages/HomePage.js';
 import NewsPage from 'pages/NewsPage.js';
 import ResumePage from 'pages/ResumePage.js';
+import ContactsPage from 'pages/ContactsPage.js';
+import SkillsPage from 'pages/SkillsPage.js';
+import FeedbackPage from 'pages/FeedbackPage.js';
 
 
 export default class Routes extends React.Component {
@@ -15,6 +18,10 @@ export default class Routes extends React.Component {
 					<IndexRoute component={HomePage} />
 					<Route path="/news" component={NewsPage} />
 					<Route path="/resume" component={ResumePage} />
+					<Route path="/contacts" component={ContactsPage} />
+					<Route path="/skills" component={SkillsPage} />
+					<Route path="/feedback" component={FeedbackPage} />
+
 
 					<Route path="*" component={HomePage} />
 				</Route>
