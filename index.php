@@ -10,7 +10,6 @@
 	</head>
 
 	<body>
-	    <div>https://toster.ru/q/257971</div>
 		<div id="root"></div>
 	</body>
 
