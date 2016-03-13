@@ -1,0 +1,36 @@
+.pills {
+	padding: 30px 35px;
+	list-style: none;
+}
+
+.block-buttons__skill {
+	-webkit-box-shadow: 0 1px 1px #ccc;
+	-moz-box-shadow: 0 1px 1px #ccc;
+	box-shadow: 0 1px 1px #ccc;
+	-webkit-transition: all 0.07s;
+	-moz-transition: all 0.07s;
+	-o-transition: all 0.07s;
+	transition: all 0.07s;
+	display: inline-block;
+	border: 0;
+	margin: 0 5px 5px 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 17px;
+	color: #333333;
+	font-weight: normal;
+	background: #f1f1f1;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.pills a {
+	color: #333;
+	display: inline-block;
+	border-radius: 2px;
+}
+
+.wrap {
+	display: inline-block;
+	padding: 5px 10px 4px;
+}

@@ -1,0 +1,128 @@
+// BEM (BLOCK, ELEMENT, MODIFICATOR)
+.feedback-form {
+	// BLOCK
+	margin: 0 auto;
+	width: 65%;
+	background-color: #303948;
+	padding: 25px;
+
+	// TODO: Remove this element
+	&__feedback {
+		width: 150px;
+		height: 60px;
+		margin: 0 auto;
+		display: block;
+		padding: 3px;
+	}
+
+	&__title {
+		color: #ffffff;
+		font-weight: lighter;
+		font-family: fantasy;
+		font-size: 41px;
+		text-align: center;
+	}
+
+	// TODO: FIx it
+	&__title:hover {
+		color: darkolivegreen;
+		transition: 0.7s;
+	}
+
+	&__text {
+		margin: 15px 0;
+		color: #C3C3C3;
+		font-size: 20px;
+		font-family: fantasy;
+		font-weight: lighter;
+		line-height: 37px;
+
+	}
+
+	// TODO: Move this styles to __input element
+	input, textarea {
+		box-sizing: border-box;
+	}
+
+	&__name {
+		width: 100%;
+		height: 40px;
+		padding-left: 10px;
+		border-color: rgba(78, 104, 148, 0.53);
+		background-color: #c0c0c0;
+		margin-bottom: 25px;
+		color: #303948;
+		outline: none;
+
+		&:focus {
+			background: #c5d1cd;
+		}
+	}
+
+	&__e-mail {
+		width: 100%;
+		height: 40px;
+		padding-left: 10px;
+		border-color: rgba(78, 104, 148, 0.53);
+		background-color: #c0c0c0;
+		margin-bottom: 25px;
+		color: #303948;
+		outline: none;
+
+		&:focus {
+			background: #c5d1cd;
+		}
+	}
+
+	&__question {
+		border-color: rgba(78, 104, 148, 0.53);
+		background-color: #c0c0c0;
+		margin-bottom: 25px;
+		color: #303948;
+		outline: none;
+		width: 100%;
+		min-height: 100px;
+		padding: 5px 0 0 10px;
+	}
+
+	&__question::-webkit-input-placeholder {
+		color: rgba(141, 0, 0, 0.7);
+	}
+
+
+	// TODO: Rename, fix...
+	&__input {
+		transition: background 0.7s;
+		background: #7D4747;
+		border: darkkhaki;
+		padding: 25px 10px;
+		width: 49%;
+		color: white;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	// TODO: ???
+	&__input-color::-webkit-input-placeholder {
+		color: rgba(141, 0, 0, 0.7);
+	}
+
+	&__input-send {
+		float: right;
+	}
+
+	&__input-send:hover {
+		background: #747474;
+		border: none;
+	}
+
+	&__input-clean {
+		float: left;
+	}
+
+	&__input-clean:hover {
+		background: #747474;
+		border: none;
+	}
+}
+

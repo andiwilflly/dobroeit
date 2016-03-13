@@ -1,3 +1,6 @@
+require('scss/content/pills.scss');
+
+
 class SkillsPage extends React.Component {
 
 	componentDidMount() {
@@ -9,18 +12,29 @@ class SkillsPage extends React.Component {
 			data.addColumn('string', 'Topping');
 			data.addColumn('number', 'Slices');
 			data.addRows([
-				['HTML5', 10],
-				['SCSS',10],
-				['JavaScript', 9],
-				['React', 9],
-				['Sass', 9]
+				['JavaScript', 80],
+				['React/Flux', 75],
+				['Babel ES6', 90],
+				['jQuery', 95],
+				['webpack', 70],
+				['BackboneJs', 80],
+				['Git', 60],
+				['SCSS', 95],
+				['Compass', 95],
+				['Bootstrap', 90],
+				['CSS3', 90],
+				['CSS ', 95],
+				['AJAX', 95],
+				['HTML', 95],
+				['Photoshop', 50],
+				['HTML5', 70]
 			]);
 
 			// Set chart options
 			var options = {
-				'title': 'My knowledge',
-				'width': 500,
-				'height': 500
+				'title': 'My knowledge, in %',
+				'width': 750,
+				'height': 750
 			};
 
 			// Instantiate and draw our chart, passing in some options.
@@ -36,6 +50,92 @@ class SkillsPage extends React.Component {
 				SkillsPage
 				<hr/>
 				<div ref="chart"></div>
+
+				<hr/>
+
+				<ul className="pills block-buttons">
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">JavaScript 80%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">React/Flux 75%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">Babel ES6 90%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">jQuery 95%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">webpack 70%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">BackboneJs 80%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">Git 60%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">SCSS 95%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">Compass 95%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">Bootstrap 90%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">CSS3 90%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">CSS 95%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">AJAX 95%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">HTML 95%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">Photoshop 50%</span>
+						</a>
+					</li>
+					<li className="block-buttons__skill">
+						<a>
+							<span className="wrap">HTML 95%</span>
+						</a>
+					</li>
+				</ul>
+
 			</div>
 		);
 	}
