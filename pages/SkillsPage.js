@@ -47,95 +47,65 @@ class SkillsPage extends React.Component {
 	render() {
 		return (
 			<div className="content-news">
-				SkillsPage
+				<h2>
+					<a href="">SkillsPage</a>
+				</h2>
 				<hr/>
 				<div ref="chart"></div>
 
 				<hr/>
 
-				<ul className="pills block-buttons">
+				<ul className="skills block-buttons">
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">JavaScript 80%</span>
-						</a>
+						<a className="block-buttons__technology">JavaScript 80%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">React/Flux 75%</span>
-						</a>
+						<a className="block-buttons__technology">React/Flux 75%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">Babel ES6 90%</span>
-						</a>
+						<a className="block-buttons__technology">Babel ES6 90%</a>
+
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">jQuery 95%</span>
-						</a>
+						<a className="block-buttons__technology">jQuery 95%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">webpack 70%</span>
-						</a>
+						<a className="block-buttons__technology">webpack 70%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">BackboneJs 80%</span>
-						</a>
+						<a className="block-buttons__technology">BackboneJs 80%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">Git 60%</span>
-						</a>
+						<a className="block-buttons__technology">Git 60%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">SCSS 95%</span>
-						</a>
+						<a className="block-buttons__technology">SCSS 95%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">Compass 95%</span>
-						</a>
+						<a className="block-buttons__technology">Compass 95%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">Bootstrap 90%</span>
-						</a>
+						<a className="block-buttons__technology">Bootstrap 90%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">CSS3 90%</span>
-						</a>
+						<a className="block-buttons__technology">CSS3 90%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">CSS 95%</span>
-						</a>
+						<a className="block-buttons__technology">CSS 95%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">AJAX 95%</span>
-						</a>
+						<a className="block-buttons__technology">AJAX 95%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">HTML 95%</span>
-						</a>
+						<a className="block-buttons__technology">HTML 95%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">Photoshop 50%</span>
-						</a>
+						<a className="block-buttons__technology">Photoshop 50%</a>
 					</li>
 					<li className="block-buttons__skill">
-						<a>
-							<span className="wrap">HTML 95%</span>
-						</a>
+						<a className="block-buttons__technology">HTML 95%</a>
 					</li>
 				</ul>
-
 			</div>
 		);
 	}
