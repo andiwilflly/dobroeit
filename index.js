@@ -17,4 +17,24 @@ requireFonts.keys().forEach(requireFonts);
 // Load the Visualization API and the corechart package.
 google.charts.load('current', {'packages': ['corechart', 'wordtree']});
 
+
+// Setup translations
+const LANGS = ['en', 'ru', 'ua'];
+var messages = {};
+_.map(LANGS, function(lang) {
+    messages[lang] = { translation : require("./translate/" + lang + "/translations.json") };
+});
+
+i18n.init({
+    lng: 'ru',
+    fallbackLng: 'en',
+    resStore: messages,
+    lngWhitelist: LANGS,
+    fallbackOnEmpty: true,
+    fallbackOnNull: true,
+    keyseparator: '~',
+    nsseparator: '~'
+});
+
+// Setup App
 ReactDOM.render(<Routes history={ history }/>, document.getElementById('root'));

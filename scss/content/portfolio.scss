@@ -1,0 +1,33 @@
+.sites-block {
+	width: 100%;
+	padding: 20px;
+	margin: 20px;
+	background-color: rgba(110, 109, 243, 0.13);
+
+	&__site {
+		float: left;
+		padding: 5px;
+		width: 200px;
+		display: block;
+		height: 140px;
+		background: url(/static/images/sites.jpg) no-repeat center;
+		background-size: 68%;
+	}
+
+	&__image-site {
+		width: 200px;
+		height: 200px;
+		background: url(/static/sites.jpg) no-repeat center;
+	}
+
+	&__name-site {
+		color: #272E39;
+		font-size: 16px;
+
+		&:hover {
+			color: #5a6b7a;
+			text-decoration: underline;
+			transition: 0.7s;
+		}
+	}
+}

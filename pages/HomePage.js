@@ -1,46 +1,36 @@
 class HomePage extends React.Component {
 
-	componentDidMount() {
-		google.charts.setOnLoadCallback(()=> {
-			var data = google.visualization.arrayToDataTable(
-				[ ['Phrases'],
-					['кошки лучше собак'],
-					['кошки едят рыбку'],
-					['кошки лучше попугаев'],
-					['кошки офигенные'],
-					['кошки едят мясо'],
-					['кошки мяукают'],
-					['кошки едят сало'],
-					['кошки едят мышку'],
-					['кошки лучше чем котята'],
-					['кошки хуже чем люди'],
-					['кошки хуже чем овцы'],
-					['кошки умные'],
-					['кошки красивые'],
-					['кошки мягкие'],
-					['кошки пушистые']
-				]
-			);
-
-			var options = {
-				wordtree: {
-					format: 'implicit',
-					word: 'кошки'
-				}
-			};
-
-			var chart = new google.visualization.WordTree(this.refs.wordtree);
-			chart.draw(data, options);
-		});
-	}
-
-
 	render() {
 		return (
 			<div>
-				HomePage
-				<hr/>
-				<div ref="wordtree"></div>
+				<h2>{ i18n.t('My portfolio') }</h2>
+
+				<div className="sites-block">
+					<div className="sites-block__site cf">
+						<a className="sites-block__image-site"></a>
+						<a className="sites-block__name-site">Бобрик</a>
+					</div>
+					<div className="sites-block__site cf">
+						<a className="sites-block__image-site"></a>
+						<a className="sites-block__name-site">Бобрюкович</a>
+					</div>
+					<div className="sites-block__site cf">
+						<a className="sites-block__image-site"></a>
+						<a className="sites-block__name-site">Бобрикович</a>
+					</div>
+					<div className="sites-block__site cf">
+						<a className="sites-block__image-site"></a>
+						<a className="sites-block__name-site">Бобер</a>
+					</div>
+					<div className="sites-block__site cf">
+						<a className="sites-block__image-site"></a>
+						<a className="sites-block__name-site">Бобрикович</a>
+					</div>
+					<div className="sites-block__site cf">
+						<a className="sites-block__image-site"></a>
+						<a className="sites-block__name-site">Бобрук</a>
+					</div>
+				</div>
 			</div>
 		);
 	}

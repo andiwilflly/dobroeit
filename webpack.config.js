@@ -61,7 +61,8 @@ module.exports = {
 		new webpack.ProvidePlugin({
 			'React': 'react',
 			'_': 'lodash',
+			'i18n':   'i18next-client',  // http://i18next.com
 			'moment': 'moment'
-		}),
+		})
 	]
 };
