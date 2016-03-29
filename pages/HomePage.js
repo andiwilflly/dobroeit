@@ -31,7 +31,7 @@ class HomePage extends React.Component {
 						<a className="sites-block__name-site">Бобрук</a>
 					</div>
 				</div>
-			</>
+			</div>
 		);
 	}
 }

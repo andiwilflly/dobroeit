@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 class Aside extends React.Component {
 
 	render() {
-
 		return (
 			<div className="sidebar header">
 				<h1 className="sidebar-aside-logo">
