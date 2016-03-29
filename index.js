@@ -26,7 +26,7 @@ _.map(LANGS, function(lang) {
 });
 
 i18n.init({
-    lng: 'ru',
+    lng: 'en',
     fallbackLng: 'en',
     resStore: messages,
     lngWhitelist: LANGS,

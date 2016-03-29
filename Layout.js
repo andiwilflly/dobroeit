@@ -4,11 +4,16 @@ import Aside from 'pages/Aside.js';
 
 class Layout extends React.Component {
 
-	render() {
+    constructor(props) {
+        super();
+        i18n.setLng(props.params.lang, function() {});
+    }
 
+
+	render() {
 		return (
 			<div className="page-content">
-				<Aside />
+				<Aside {...this.props} {...this.state} />
 				<div className="content">
 					{ this.props.children }
 				</div>

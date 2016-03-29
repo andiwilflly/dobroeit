@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 class Aside extends React.Component {
 
 	render() {
+
 		return (
 			<div className="sidebar header">
 				<h1 className="sidebar-aside-logo">
@@ -13,13 +14,13 @@ class Aside extends React.Component {
 				<div className="box sidebar-aside-nav">
 					<ul>
 						<li className="sidebar-aside-nav-first-aside-link">
-							<Link to={ '/' }>Main</Link>
+							<Link to={ `/${this.props.params.lang}` }>Main</Link>
 						</li>
 						<li>
-							<Link to={ '/resume' }>Resume</Link>
+							<Link to={ '/' + this.props.params.lang + '/resume' }>Resume</Link>
 						</li>
 						<li>
-							<Link to={ '/portfolio' }>Portfolio</Link>
+							<Link to={ `/${this.props.params.lang}/portfolio` }>Portfolio</Link>
 						</li>
 						<li>
 							<Link to={ '/skills' }>Skills</Link>

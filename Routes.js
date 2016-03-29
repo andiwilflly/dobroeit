@@ -14,14 +14,15 @@ export default class Routes extends React.Component {
 	render() {
 		return (
 			<Router history={ this.props.history }>
-				<Route path="/" component={Layout}>
-					<IndexRoute component={HomePage} />
-					<Route path="/news" component={NewsPage} />
-					<Route path="/resume" component={ResumePage} />
-					<Route path="/contacts" component={ContactsPage} />
-					<Route path="/skills" component={SkillsPage} />
-					<Route path="/feedback" component={FeedbackPage} />
+				<Route path="/" component={HomePage} />
 
+				<Route path="/:lang" component={Layout}>
+					<IndexRoute component={HomePage} />
+					<Route path="/:lang/news" component={NewsPage} />
+					<Route path="/:lang/resume" component={ResumePage} />
+					<Route path="/:lang/contacts" component={ContactsPage} />
+					<Route path="/:lang/skills" component={SkillsPage} />
+					<Route path="/:lang/feedback" component={FeedbackPage} />
 
 					<Route path="*" component={HomePage} />
 				</Route>
