@@ -1,7 +1,7 @@
 {
   "Hello": "Hello",
   "My portfolio": "My portfolio",
-   "Main": "Main",
+  "Main": "Main",
   "Resume": "Resume",
   "Portfolio": "Portfolio",
   "Skills": "Skills",
@@ -21,10 +21,6 @@
   "Address": "Address",
   "Kiev": "Kiev",
   "Phone": "Phone",
-  "e-mail": "e-mail",
-
-
-
-
+  "e-mail": "e-mail"
 
 }
