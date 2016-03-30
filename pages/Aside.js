@@ -14,7 +14,7 @@ class Aside extends React.Component {
 				<div className="box sidebar-aside-nav">
 					<ul>
 						<li className="sidebar-aside-nav-first-aside-link">
-							<Link to={ `/${this.props.params.lang}` }>Main</Link>
+							<Link to={ `/${this.props.params.lang}` }>{ i18n.t('Main') }</Link>
 						</li>
 						<li>
 							<Link to={ '/' + this.props.params.lang + '/resume' }>Resume</Link>

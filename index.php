@@ -13,5 +13,5 @@
 		<div id="root"></div>
 	</body>
 
-	<script src="static/bundle.js"></script>
+	<script src="/static/bundle.js"></script>
 </html>
