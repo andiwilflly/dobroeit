@@ -23,7 +23,7 @@ class Aside extends React.Component {
 							<Link to={ `/${this.props.params.lang}/portfolio` }>Portfolio</Link>
 						</li>
 						<li>
-							<Link to={ '/skills' }>Skills</Link>
+							<Link to={ `/${this.props.params.lang}/skills` }>Skills</Link>
 						</li>
 						<li>
 							<a href="#content-news-services">Services</a>
@@ -32,10 +32,10 @@ class Aside extends React.Component {
 							<a href="#content-news-way">My way</a>
 						</li>
 						<li>
-							<Link to={ '/feedback' }>To order a site</Link>
+							<Link to={ `/${this.props.params.lang}/feedback` }>To order a site</Link>
 						</li>
 						<li>
-							<Link to={ '/contacts' }>Contacts</Link>
+							<Link to={ `/${this.props.params.lang}/contacts` }>Contacts</Link>
 						</li>
 					</ul>
 
