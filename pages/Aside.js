@@ -23,19 +23,19 @@ class Aside extends React.Component {
 						<Link to={ `/${this.props.params.lang}/portfolio` }>{ i18n.t('Portfolio') }</Link>
 					</li>
 					<li className="navigation__item">
-						<Link to={ `/${this.props.params.lang}` }>{ i18n.t('Skills') }</Link>
+						<Link to={ `/${this.props.params.lang}/skills` }>{ i18n.t('Skills') }</Link>
 					</li>
 					<li className="navigation__item">
-						<Link to={ `/${this.props.params.lang}` }>{ i18n.t('Services') }</Link>
+						<Link to={ `/${this.props.params.lang}/services` }>{ i18n.t('Services') }</Link>
 					</li>
 					<li className="navigation__item">
-						<Link to={ `/${this.props.params.lang}` }>{ i18n.t('My way') }</Link>
+						<Link to={ `/${this.props.params.lang}/way` }>{ i18n.t('My way') }</Link>
 					</li>
 					<li className="navigation__item">
-						<Link to={ `/${this.props.params.lang}` }>{ i18n.t('To order a site') }</Link>
+						<Link to={ `/${this.props.params.lang}/feedback` }>{ i18n.t('To order a site') }</Link>
 					</li>
 					<li className="navigation__item">
-						<Link to={ `/${this.props.params.lang}` }>{ i18n.t('Contacts') }</Link>
+						<Link to={ `/${this.props.params.lang}/contacts` }>{ i18n.t('Contacts') }</Link>
 					</li>
 				</ul>
 
@@ -57,10 +57,10 @@ class Aside extends React.Component {
 				</div>
 
 				<div className="box recent-posts">
-					<h3>Recent Posts</h3>
+					<h3>{ i18n.t('Recent Posts') }</h3>
 					<ul>
 						<li>
-							<a>Lorem ipsum dolor</a>
+							<a>{ i18n.t('Lorem ipsum dolor') }</a>
 						</li>
 						<li>
 							<a>Feugiat nisl aliquam</a>
