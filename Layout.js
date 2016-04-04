@@ -4,10 +4,11 @@ import Aside from 'pages/Aside.js';
 
 class Layout extends React.Component {
 
-    constructor(props) {
-        super();
-        i18n.setLng(props.params.lang, function() {});
-    }
+	constructor(props) {
+		super();
+		i18n.setLng(props.params.lang, function () {
+		});
+	}
 
 
 	render() {

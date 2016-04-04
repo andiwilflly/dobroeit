@@ -6,7 +6,7 @@ class LandingPage extends React.Component {
 	render() {
 		return (
 			<div>
-				<ul id="clouds">
+				<ul id="clouds" className="clouds">
 					<li className="cloud x1">
 					</li>
 
@@ -25,12 +25,14 @@ class LandingPage extends React.Component {
 
 				<div className="main-background">
 					<div className="main-info">
-						<h2 className="main-h2">Hi!</h2>
+						<div className="main-info-inner">
+							<h2 className="main-h2">Hi!</h2>
 
-						<p className="main-p"> I welcome you to its website.</p>
-						<button className="main-button">
-							<Link to={ '/ru' } classNameName="main-button-name">Home</Link>
-						</button>
+							<p className="main-p"> I welcome you to its website.</p>
+							<button className="main-button">
+								<Link to={ '/ru' } classNameName="main-button-name">Home</Link>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>

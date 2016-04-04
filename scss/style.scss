@@ -3,25 +3,11 @@ body {
 	font-size: 12px;
 }
 
-h1 {
-	font-family: 'opensansextrabold';
-}
-
 h2 {
-	font-family: 'opensansbold';
 	margin: 10px 0;
 }
 
-h3 {
-	font-family: 'opensansbold';
-}
-
-a {
-	font-family: 'opensanslight';
-}
-
 p {
-	font-family: 'opensanslight';
 	color: rgb(64, 99, 39);
 	font-size: 20px;
 }
@@ -30,10 +16,6 @@ aside,
 footer,
 header,
 main,
-section{
+section {
 	display: block;
-}
-
-.page-content {
-	display: table-row;
 }
